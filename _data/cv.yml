@@ -4,7 +4,7 @@ cv:
   email: joonpark2247@gmail.com
   location: Seoul, South Korea
   image: ""
-  summary: Researcher and engineer working on channel coding, error-correcting codes, machine learning, and quantum information theory.
+  #summary: Researcher and engineer working on channel coding, error-correcting codes, machine learning, and quantum information theory.
 
   social_networks:
     - network: GitHub
@@ -37,28 +37,7 @@ cv:
         highlights:
           - Designed error-correcting codes for wireless communication and high-density, high-performance SSDs.
 
-    Education:
-      - institution: Seoul National University
-        location: Seoul, South Korea
-        area: Electrical and Computer Engineering
-        studyType: Ph.D.
-        start_date: 2019-03
-        end_date: 2024-02
-        highlights:
-          - "Supervisor: Prof. Jong-Seon No"
-
-      - institution: Seoul National University
-        location: Seoul, South Korea
-        area: Electrical and Computer Engineering
-        studyType: M.S.
-        end_date: 2020-09
-
-      - institution: Sogang University
-        location: Seoul, South Korea
-        area: Electronic Engineering
-        studyType: B.S.
-        start_date: 2014-03
-        end_date: 2019-02
+    
 
     Awards:
       - title: Best Paper Award
@@ -116,6 +95,29 @@ cv:
         start_date: 2019-09
         end_date: 2022-11
 
+    Education:
+      - institution: Seoul National University
+        location: Seoul, South Korea
+        area: Electrical and Computer Engineering
+        studyType: Ph.D.
+        start_date: 2019-03
+        end_date: 2024-02
+        highlights:
+          - "Supervisor: Prof. Jong-Seon No"
+
+      - institution: Seoul National University
+        location: Seoul, South Korea
+        area: Electrical and Computer Engineering
+        studyType: M.S.
+        end_date: 2020-09
+
+      - institution: Sogang University
+        location: Seoul, South Korea
+        area: Electronic Engineering
+        studyType: B.S.
+        start_date: 2014-03
+        end_date: 2019-02
+        
     Skills:
       - name: Programming
         icon: fa-solid fa-code
@@ -123,4 +125,4 @@ cv:
 
       - name: Research
         icon: fa-solid fa-flask
-        keywords: "Coding theory, channel coding, forward error correction, transformers, wireless communication, quantum error correction"
+        keywords: "Coding theory, Information theory, Channel coding, Forward error correction, Quantum error correction, Quantum information theory, Machine Learning"
