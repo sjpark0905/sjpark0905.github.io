@@ -31,6 +31,7 @@ My research area focuses on information theory, channel coding, machine learning
 - Quantum error correction & Quantum information theory
 - Channel coding for wireless communication and memory systems
 
+[joonpark2247(at)gmail.com](joonpark2247@gmail.com)
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.publications .links a').forEach(function (link) {
