@@ -1,0 +1,26 @@
+{% if entry.award_text %}
+  <div class="publication-award">
+    <i class="fa-solid fa-award" aria-hidden="true"></i>
+    <span>{{ entry.award_text }}</span>
+  </div>
+  <script>
+    (() => {
+      const script = document.currentScript;
+      const award = script.previousElementSibling;
+      const links = script.parentElement.querySelector('.links');
+      if (award && links) links.before(award);
+    })();
+  </script>
+{% endif %}
+
+<style>
+  .publication-award {
+    color: #c47f00;
+    font-weight: 600;
+    margin-top: 0.25rem;
+  }
+
+  .publication-award i {
+    margin-right: 0.35rem;
+  }
+</style>
