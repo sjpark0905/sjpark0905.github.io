@@ -13,6 +13,10 @@
   </script>
 {% endif %}
 
+{% if entry.year %}
+  <div class="publication-year">{{ entry.year }}</div>
+{% endif %}
+
 <script>
   (() => {
     const publicationRow = document.currentScript.closest('.row');
@@ -29,6 +33,19 @@
 
   .publication-award i {
     margin-right: 0.35rem;
+  }
+
+  .publications .row {
+    position: relative;
+  }
+
+  .publication-year {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    font-weight: 400;
   }
 
   /* Conference papers */
@@ -55,5 +72,13 @@
   .publication-article .abbr .badge a,
   .publication-unpublished .abbr .badge a {
     color: #fff !important;
+  }
+
+  @media (max-width: 575.98px) {
+    .publication-year {
+      position: static;
+      float: right;
+      margin-top: -1.5rem;
+    }
   }
 </style>
