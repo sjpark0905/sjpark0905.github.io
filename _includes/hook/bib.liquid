@@ -13,6 +13,13 @@
   </script>
 {% endif %}
 
+<script>
+  (() => {
+    const publicationRow = document.currentScript.closest('.row');
+    if (publicationRow) publicationRow.classList.add('publication-{{ entry.type }}');
+  })();
+</script>
+
 <style>
   .publication-award {
     color: #c47f00;
@@ -22,5 +29,31 @@
 
   .publication-award i {
     margin-right: 0.35rem;
+  }
+
+  /* Conference papers */
+  .publication-inproceedings .abbr .badge,
+  .publication-incollection .abbr .badge {
+    background-color: #1565c0 !important;
+    color: #fff !important;
+  }
+
+  /* Journal papers */
+  .publication-article .abbr .badge {
+    background-color: #9c3d63 !important;
+    color: #fff !important;
+  }
+
+  /* Preprints */
+  .publication-unpublished .abbr .badge {
+    background-color: #6c757d !important;
+    color: #fff !important;
+  }
+
+  .publication-inproceedings .abbr .badge a,
+  .publication-incollection .abbr .badge a,
+  .publication-article .abbr .badge a,
+  .publication-unpublished .abbr .badge a {
+    color: #fff !important;
   }
 </style>
