@@ -10,7 +10,7 @@
       if (link.textContent.trim() === 'HTML') link.textContent = 'Paper';
     });
   });
-</script> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <div class="table-responsive" style="max-height: 60vw"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">Apr 2026</th> <td> Our paper “Efficient Message-Passing Transformer for Error Correcting Codes” was accepted in ICLR 2026! </td> </tr> <tr> <th scope="row" style="width: 20%">Jul 2025</th> <td> Our paper “Multiple-Masks Error Correction Code Transformer for Short Block Codes” was accepted for publication in IEEE Journal on Selected Areas in Communications! </td> </tr> <tr> <th scope="row" style="width: 20%">Apr 2025</th> <td> Our paper “CrossMPT: Cross-Attention Message-Passing Transformer for Error Correcting Codes” was accepted in ICLR 2025! </td> </tr> <tr> <th scope="row" style="width: 20%">Mar 2025</th> <td> Joined <strong>Samsung Electronics</strong> as a Staff Engineer in the NAND Flash Controller Team. </td> </tr> <tr> <th scope="row" style="width: 20%">Apr 2024</th> <td> Received the <strong>Best Paper Award</strong> at the 34th Joint Conference on Communications and Information. </td> </tr> </table> </div> </div> <h2> <a href="/publications/" style="color: inherit">selected publications</a> </h2> <div class="publications"> <ol class="bibliography"> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">ICLR</abbr> </div> <div id="park2026efficientmpt" class="col-sm-8"> <div class="title">Efficient Message-Passing Transformer for Error Correcting Codes</div> <div class="author"> <em>Seong-Joon Park</em>, Taewoo Park, Hee-Youl Kwak, Sang-Hyo Kim, Yongjune Kim, and Jong-Seon No </div> <script>
+</script> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <div class="table-responsive" style="max-height: 60vw"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">Apr 2026</th> <td> Our paper “Efficient Message-Passing Transformer for Error Correcting Codes” was accepted in ICLR 2026! </td> </tr> <tr> <th scope="row" style="width: 20%">Jul 2025</th> <td> Our paper “Multiple-Masks Error Correction Code Transformer for Short Block Codes” was accepted for publication in IEEE Journal on Selected Areas in Communications! </td> </tr> <tr> <th scope="row" style="width: 20%">Apr 2025</th> <td> Our paper “CrossMPT: Cross-Attention Message-Passing Transformer for Error Correcting Codes” was accepted in ICLR 2025! </td> </tr> <tr> <th scope="row" style="width: 20%">Mar 2025</th> <td> Joined <strong>Samsung Electronics</strong> as a Staff Engineer in the NAND Flash Controller Team. </td> </tr> <tr> <th scope="row" style="width: 20%">Apr 2024</th> <td> Received the <strong>Best Paper Award</strong> at the 34th Joint Conference on Communications and Information. </td> </tr> </table> </div> </div> <h2> <a href="/publications/" style="color: inherit">selected publications</a> </h2> <div class="publications"> <ol class="bibliography"> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">ICLR</abbr> </div> <div id="park2026efficientmpt" class="col-sm-8"> <div class="title">Efficient Message-Passing Transformer for Error Correcting Codes</div> <div class="author"> <em>Seong-Joon Park</em>, Taewoo Park, Hee-Youl Kwak, Sang-Hyo Kim, Yongjune Kim, and Jong-Seon No </div> <div class="publication-year">2026</div> <script>
   (() => {
     const publicationRow = document.currentScript.closest('.row');
     if (publicationRow) publicationRow.classList.add('publication-inproceedings');
@@ -24,6 +24,19 @@
 
   .publication-award i {
     margin-right: 0.35rem;
+  }
+
+  .publications .row {
+    position: relative;
+  }
+
+  .publication-year {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    font-weight: 400;
   }
 
   /* Conference papers */
@@ -51,7 +64,15 @@
   .publication-unpublished .abbr .badge a {
     color: #fff !important;
   }
-</style> <div class="periodical"> <em>In ICLR</em>, 2026 </div> <div class="periodical"> </div> <div class="links"> <a href="https://openreview.net/forum?id=Xk8cwnwu2e" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://github.com/iil-postech/efficientmpt" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">ICLR</abbr> </div> <div id="park2025crossmpt" class="col-sm-8"> <div class="title">CrossMPT: Cross-Attention Message-Passing Transformer for Error Correcting Code Decoder</div> <div class="author"> <em>Seong-Joon Park</em>, Hee-Youl Kwak, Sang-Hyo Kim, Yongjune Kim, and Jong-Seon No </div> <script>
+
+  @media (max-width: 575.98px) {
+    .publication-year {
+      position: static;
+      float: right;
+      margin-top: -1.5rem;
+    }
+  }
+</style> <div class="periodical"> <em>In ICLR</em>, 2026 </div> <div class="periodical"> </div> <div class="links"> <a href="https://openreview.net/forum?id=Xk8cwnwu2e" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://github.com/iil-postech/efficientmpt" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">ICLR</abbr> </div> <div id="park2025crossmpt" class="col-sm-8"> <div class="title">CrossMPT: Cross-Attention Message-Passing Transformer for Error Correcting Code Decoder</div> <div class="author"> <em>Seong-Joon Park</em>, Hee-Youl Kwak, Sang-Hyo Kim, Yongjune Kim, and Jong-Seon No </div> <div class="publication-year">2025</div> <script>
   (() => {
     const publicationRow = document.currentScript.closest('.row');
     if (publicationRow) publicationRow.classList.add('publication-inproceedings');
@@ -65,6 +86,19 @@
 
   .publication-award i {
     margin-right: 0.35rem;
+  }
+
+  .publications .row {
+    position: relative;
+  }
+
+  .publication-year {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    font-weight: 400;
   }
 
   /* Conference papers */
@@ -91,6 +125,14 @@
   .publication-article .abbr .badge a,
   .publication-unpublished .abbr .badge a {
     color: #fff !important;
+  }
+
+  @media (max-width: 575.98px) {
+    .publication-year {
+      position: static;
+      float: right;
+      margin-top: -1.5rem;
+    }
   }
 </style> <div class="periodical"> <em>In ICLR</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a href="https://openreview.net/forum?id=gFvRRCnQvX" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://github.com/iil-postech/crossmpt" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">IEEE JSAC</abbr> </div> <div id="park2025multiple" class="col-sm-8"> <div class="title">Multiple-Masks Error Correction Code Transformer for Short Block Codes</div> <div class="author"> <em>Seong-Joon Park</em>, Hee-Youl Kwak, Sunghwan Kim, Sang-Hyo Kim, Yongjune Kim, and Jong-Seon No </div> <div class="publication-award"> <i class="fa-solid fa-award" aria-hidden="true"></i> <span>Silver Prize at Samsung HumanTech 2024; Best Paper Award at JCCI 2024</span> </div> <script>
     (() => {
@@ -99,7 +141,7 @@
       const links = script.parentElement.querySelector('.links');
       if (award && links) links.before(award);
     })();
-  </script> <script>
+  </script> <div class="publication-year">2025</div> <script>
   (() => {
     const publicationRow = document.currentScript.closest('.row');
     if (publicationRow) publicationRow.classList.add('publication-article');
@@ -113,6 +155,19 @@
 
   .publication-award i {
     margin-right: 0.35rem;
+  }
+
+  .publications .row {
+    position: relative;
+  }
+
+  .publication-year {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    font-weight: 400;
   }
 
   /* Conference papers */
@@ -139,6 +194,14 @@
   .publication-article .abbr .badge a,
   .publication-unpublished .abbr .badge a {
     color: #fff !important;
+  }
+
+  @media (max-width: 575.98px) {
+    .publication-year {
+      position: static;
+      float: right;
+      margin-top: -1.5rem;
+    }
   }
 </style> <div class="periodical"> <em>IEEE Journal on Selected Areas in Communications</em>, 2025 </div> <div class="periodical"> </div> <div class="links"> <a href="https://ieeexplore.ieee.org/document/10970429" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://github.com/iil-postech/mm-ecct" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">Bioinformatics</abbr> </div> <div id="park2023reducing" class="col-sm-8"> <div class="title">Reducing Costs by Error Correction Using Soft Information of Variable-Length Reads in DNA-Based Data Storage</div> <div class="author"> <em>Seong-Joon Park</em>, Sunghwan Kim, Jaeho Jeong, Albert No, Jong-Seon No, and Hosung Park </div> <div class="publication-award"> <i class="fa-solid fa-award" aria-hidden="true"></i> <span>Excellence Award at the 15th ICT Thesis Contest Grand Prize</span> </div> <script>
     (() => {
@@ -147,7 +210,7 @@
       const links = script.parentElement.querySelector('.links');
       if (award && links) links.before(award);
     })();
-  </script> <script>
+  </script> <div class="publication-year">2023</div> <script>
   (() => {
     const publicationRow = document.currentScript.closest('.row');
     if (publicationRow) publicationRow.classList.add('publication-article');
@@ -161,6 +224,19 @@
 
   .publication-award i {
     margin-right: 0.35rem;
+  }
+
+  .publications .row {
+    position: relative;
+  }
+
+  .publication-year {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    font-weight: 400;
   }
 
   /* Conference papers */
@@ -187,6 +263,14 @@
   .publication-article .abbr .badge a,
   .publication-unpublished .abbr .badge a {
     color: #fff !important;
+  }
+
+  @media (max-width: 575.98px) {
+    .publication-year {
+      position: static;
+      float: right;
+      margin-top: -1.5rem;
+    }
   }
 </style> <div class="periodical"> <em>Bioinformatics</em>, 2023 </div> <div class="periodical"> </div> <div class="links"> <a href="https://academic.oup.com/bioinformatics/article/39/9/btad548/7260910" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> </div> </div> </li> </ol> </div> <div class="social"> <div class="contact-icons"> <a href="https://drive.google.com/..." title="Cv pdf" rel="external nofollow noopener" target="_blank"><i class="ai ai-cv"></i></a> <a href="mailto:joonpark2247@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://github.com/sjpark0905" title="Github username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="https://www.linkedin.com/in/seongjoonpark" title="Linkedin username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a> <a href="https://scholar.google.com/citations?user=P2lWEwQAAAAJ" title="Scholar userid" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> </div> <div class="contact-note">Staff Engineer at Samsung Electronics. </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Seong-Joon Park. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
   window.alFolio = {
