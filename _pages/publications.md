@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Preprints and peer-reviewed publications.
+description:
 nav: true
 nav_order: 2
 ---
@@ -14,20 +14,8 @@ nav_order: 2
 <h2>Preprints</h2>
 {% bibliography --query @unpublished %}
 
-<h2>2026</h2>
-{% bibliography --query @inproceedings[year=2026] %}
-
-<h2>2025</h2>
-{% bibliography --query @inproceedings[year=2025] || @article[year=2025] %}
-
-<h2>2023</h2>
-{% bibliography --query @article[year=2023] %}
-
-<h2>2022</h2>
-{% bibliography --query @article[year=2022] %}
-
-<h2>2021</h2>
-{% bibliography --query @article[year=2021] %}
+<h2>Publications</h2>
+{% bibliography --query @inproceedings || @incollection || @article %}
 
 </div>
 
@@ -38,3 +26,9 @@ nav_order: 2
     });
   });
 </script>
+
+<style>
+  .post-header {
+    display: none;
+  }
+</style>
