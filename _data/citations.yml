@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-28'
 papers:
   P2lWEwQAAAAJ:2osOgNQ5qMEC:
     citations: 26
@@ -26,23 +26,23 @@ papers:
     title: Spectral-Aligned Pruning for Universal Error-Correcting Code Transformers
     year: '2026'
   P2lWEwQAAAAJ:W7OEmFMy1HYC:
-    citations: 5
+    citations: 6
     title: Lowering the error floor of error correction code transformer
     year: '2025'
   P2lWEwQAAAAJ:WF5omc3nYNoC:
-    citations: 2
+    citations: 3
     title: Cross-Attention Message-Passing Transformers for Code-Agnostic Decoding in 6G Networks
     year: '2025'
   P2lWEwQAAAAJ:d1gkVwhDpl0C:
-    citations: 13
+    citations: 14
     title: Generative adversarial networks for DNA storage channel simulator
     year: '2023'
   P2lWEwQAAAAJ:eQOLeE2rZwMC:
-    citations: 21
+    citations: 23
     title: Multiple-Masks Error Correction Code Transformer for Short Block Codes
     year: '2025'
   P2lWEwQAAAAJ:kNdYIx-mwKoC:
-    citations: 40
+    citations: 42
     title: 'CrossMPT: Cross-attention message-passing transformer for error correcting codes'
     year: '2025'
   P2lWEwQAAAAJ:roLk4NBRz8UC:
