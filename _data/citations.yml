@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-28'
+  last_updated: '2026-09-02'
 papers:
   P2lWEwQAAAAJ:2osOgNQ5qMEC:
     citations: 26
@@ -18,7 +18,7 @@ papers:
     title: Reducing cost in DNA-based data storage by sequence analysis-aided soft information decoding of variable-length reads
     year: '2023'
   P2lWEwQAAAAJ:KlAtU1dfN6UC:
-    citations: 2
+    citations: 3
     title: Qubit-centric Transformer for Surface Code Decoding
     year: '2025'
   P2lWEwQAAAAJ:UebtZRa9Y70C:
@@ -38,11 +38,11 @@ papers:
     title: Generative adversarial networks for DNA storage channel simulator
     year: '2023'
   P2lWEwQAAAAJ:eQOLeE2rZwMC:
-    citations: 23
+    citations: 25
     title: Multiple-Masks Error Correction Code Transformer for Short Block Codes
     year: '2025'
   P2lWEwQAAAAJ:kNdYIx-mwKoC:
-    citations: 42
+    citations: 44
     title: 'CrossMPT: Cross-attention message-passing transformer for error correcting codes'
     year: '2025'
   P2lWEwQAAAAJ:roLk4NBRz8UC:
