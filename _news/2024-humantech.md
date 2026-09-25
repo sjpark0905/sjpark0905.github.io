@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received the **Silver Prize ($10,000)** at the 30th Samsung HumanTech Paper Award.
+Received the **Silver Prize ($10,000)** at the 30th Samsung HumanTech Paper Award!
