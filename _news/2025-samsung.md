@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined **Samsung Electronics** as a Staff Engineer in the NAND Flash Controller Team.
+Joined **Samsung Electronics** as a Staff Engineer in the NAND Flash Controller Team!
