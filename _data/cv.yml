@@ -4,20 +4,16 @@ cv:
   email: joonpark2247@gmail.com
   location: Seoul, South Korea
   image: ""
-  #summary: Researcher and engineer working on channel coding, error-correcting codes, machine learning, and quantum information theory.
+  # summary: Researcher and engineer working on channel coding, error-correcting codes, machine learning, and quantum information theory.
 
   social_networks:
     - network: GitHub
       username: sjpark0905
+
     - network: LinkedIn
       username: seongjoonpark
 
   sections:
-    Research Interests:
-      - bullet: AI/ML-based decoder for error correcting codes
-      - bullet: Quantum error correction and quantum information theory
-      - bullet: Channel coding for wireless communication and memory systems
-
     Experience:
       - company: Samsung Electronics Co., Ltd.
         position: Staff Engineer
@@ -26,7 +22,7 @@ cv:
         end_date: present
         summary: NAND Flash Controller Team, Memory Division, Device Solutions
         highlights:
-          - Develop and optimize transformer-based FEC algorithms for NAND flash memory controllers.
+          - Develop and optimize transformer-based forward error correction algorithms for NAND flash memory controllers.
 
       - company: Pohang University of Science and Technology (POSTECH)
         position: Postdoctoral Research Associate
@@ -35,9 +31,44 @@ cv:
         end_date: 2025-02
         summary: Institute of Artificial Intelligence, mentored by Prof. Yongjune Kim
         highlights:
-          - Designed error-correcting codes for wireless communication and high-density, high-performance SSDs.
+          - Designed error-correcting codes for wireless communication and high-density, high-performance solid-state drives.
 
-    
+    Research Interests:
+      - bullet: AI/ML-based decoders for error-correcting codes
+      - bullet: Quantum error correction and quantum information theory
+      - bullet: Channel coding for wireless communication and memory systems
+
+    Education:
+      - institution: Seoul National University
+        location: Seoul, South Korea
+        area: Electrical and Computer Engineering
+        studyType: Ph.D.
+        start_date: 2019-03
+        end_date: 2024-02
+        highlights:
+          - "Supervisor: Prof. Jong-Seon No"
+
+      - institution: Seoul National University
+        location: Seoul, South Korea
+        area: Electrical and Computer Engineering
+        studyType: M.S.
+        end_date: 2020-09
+
+      - institution: Sogang University
+        location: Seoul, South Korea
+        area: Electronic Engineering
+        studyType: B.S.
+        start_date: 2014-03
+        end_date: 2019-02
+
+    Peer Review:
+      - bullet: Scientific Reports
+      - bullet: IEEE Communications Magazine
+      - bullet: IEEE Transactions on Cognitive Communications and Networking
+      - bullet: IEEE International Symposium on Information Theory (ISIT)
+      - bullet: IEEE Communications Letters
+      - bullet: Conference on Neural Information Processing Systems (NeurIPS 2026)
+      - bullet: International Conference on Learning Representations (ICLR 2027)
 
     Awards:
       - title: Best Paper Award
@@ -64,7 +95,7 @@ cv:
         awarder: Samsung Electronics
         summary: Sep. 2021 – Feb. 2024
 
-    Research Projects:
+    Projects:
       - name: Advanced Channel Coding and Channel Estimation Technologies
         summary: Wireless communication evolution project funded by the National Research Foundation of Korea.
         start_date: 2024-02
@@ -95,29 +126,6 @@ cv:
         start_date: 2019-09
         end_date: 2022-11
 
-    Education:
-      - institution: Seoul National University
-        location: Seoul, South Korea
-        area: Electrical and Computer Engineering
-        studyType: Ph.D.
-        start_date: 2019-03
-        end_date: 2024-02
-        highlights:
-          - "Supervisor: Prof. Jong-Seon No"
-
-      - institution: Seoul National University
-        location: Seoul, South Korea
-        area: Electrical and Computer Engineering
-        studyType: M.S.
-        end_date: 2020-09
-
-      - institution: Sogang University
-        location: Seoul, South Korea
-        area: Electronic Engineering
-        studyType: B.S.
-        start_date: 2014-03
-        end_date: 2019-02
-        
     Skills:
       - name: Programming
         icon: fa-solid fa-code
@@ -125,4 +133,4 @@ cv:
 
       - name: Research
         icon: fa-solid fa-flask
-        keywords: "Coding theory, Information theory, Channel coding, Forward error correction, Quantum error correction, Quantum information theory, Machine Learning"
+        keywords: "Coding theory, information theory, channel coding, forward error correction, quantum error correction, quantum information theory, machine learning"
