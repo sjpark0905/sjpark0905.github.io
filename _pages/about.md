@@ -23,21 +23,70 @@ latest_posts:
   enabled: false
 ---
 
-joonpark2247(at)gmail.com
+<div style="color: #000000;">
+  <p>
+    <a
+      href="mailto:joonpark2247@gmail.com"
+      style="color: #000000; text-decoration: underline;"
+    >
+      joonpark2247@gmail.com
+    </a>
+  </p>
 
-**Hi, I'm Seong-Joon Park, a Staff Engineer at Samsung Electronics.** I was a **Postdoctoral Researcher in Institute of Artificial Intelligence at [Pohang University of Science and Technology (POSTECH)](https://www.postech.ac.kr/eng/)** hosted by **Prof. [Yongjune Kim](https://iil.postech.ac.kr/people)**. I received Ph.D. and M.S. degrees in Electrical and Computer Engineering at **[Seoul National University (SNU)](https://en.snu.ac.kr/index.html)**, where I was advised by **Prof. [Jong-Seon No](https://scholar.google.com/citations?user=ZL-p_cIAAAAJ&hl=ko&oi=ao)**.
+  <p>
+    Hi, I’m
+    <span style="color: #8b5a2b; font-weight: 700;">
+      Seong-Joon Park
+    </span>,
+    a Staff Engineer at Samsung Electronics. I was a Postdoctoral Researcher in
+    the Institute of Artificial Intelligence at
+    <a
+      href="https://www.postech.ac.kr/eng/"
+      style="color: #000000; text-decoration: underline;"
+    >
+      Pohang University of Science and Technology (POSTECH)
+    </a>
+    hosted by Prof.
+    <a
+      href="https://iil.postech.ac.kr/people"
+      style="color: #000000; text-decoration: underline;"
+    >
+      Yongjune Kim
+    </a>.
+    I received Ph.D. and M.S. degrees in Electrical and Computer Engineering at
+    <a
+      href="https://en.snu.ac.kr/index.html"
+      style="color: #000000; text-decoration: underline;"
+    >
+      Seoul National University (SNU)
+    </a>,
+    where I was advised by Prof.
+    <a
+      href="https://scholar.google.com/citations?user=ZL-p_cIAAAAJ&hl=ko&oi=ao"
+      style="color: #000000; text-decoration: underline;"
+    >
+      Jong-Seon No
+    </a>.
+  </p>
 
-My research area focuses on information theory, channel coding, machine learning, and quantum error correction & quantum information theory.
+  <p>
+    My research focuses on information theory, channel coding, machine learning,
+    quantum error correction, and quantum information theory.
+  </p>
 
-- AI/ML-based decoder for error correcting codes
-- Quantum error correction & Quantum information theory
-- Channel coding for wireless communication and memory systems
-
+  <ul>
+    <li>AI/ML-based decoders for error-correcting codes</li>
+    <li>Quantum error correction and quantum information theory</li>
+    <li>Channel coding for wireless communication and memory systems</li>
+  </ul>
+</div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.publications .links a').forEach(function (link) {
-      if (link.textContent.trim() === 'HTML') link.textContent = 'Paper';
+      if (link.textContent.trim() === 'HTML') {
+        link.textContent = 'Paper';
+      }
     });
   });
 </script>
