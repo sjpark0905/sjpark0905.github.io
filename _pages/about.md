@@ -24,30 +24,37 @@ latest_posts:
 ---
 
 <style>
+  /* 일반 글자는 현재 테마 색상을 사용 */
   .about-introduction {
-    color: var(--global-text-color);
+    color: inherit;
   }
 
-  .about-introduction .name-highlight {
-    color: #8b5a2b;
-    font-weight: 700;
-  }
-
-  .about-introduction a {
-    color: var(--global-text-color) !important;
+  /* 링크도 주변 글자색을 사용 */
+  .about-introduction a,
+  .about-introduction a:visited {
+    color: inherit !important;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
   }
 
+  /* 링크 위에 마우스를 올렸을 때 테마 색상 사용 */
   .about-introduction a:hover {
     color: var(--global-theme-color) !important;
   }
 
+  /* 라이트 모드의 이름 */
+  .about-introduction .name-highlight {
+    color: #8b5a2b;
+    font-weight: 700;
+  }
+
+  /* 다크 모드의 이름 */
   html[data-theme='dark'] .about-introduction .name-highlight {
     color: #e0ad82;
   }
 
+  /* 시스템 다크 모드 대응 */
   @media (prefers-color-scheme: dark) {
     html:not([data-theme='light']) .about-introduction .name-highlight {
       color: #e0ad82;
