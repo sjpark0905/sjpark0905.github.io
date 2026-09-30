@@ -58,3 +58,13 @@
   }
 
 </style>
+
+{% if entry.type == 'article' %}
+  {% capture entrytype %}
+    <em style="color: #1976d2;">{{ entry.journal }}</em>
+  {% endcapture %}
+{% elsif entry.type == 'inproceedings' or entry.type == 'incollection' %}
+  {% capture entrytype %}
+    <em style="color: #d32f2f;">{{ entry.booktitle }}</em>
+  {% endcapture %}
+{% endif %}
