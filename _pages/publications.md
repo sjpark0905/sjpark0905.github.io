@@ -7,28 +7,41 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<div class="publications">
-
-<h2>Preprints</h2>
-{% bibliography --query @unpublished %}
-
-<h2>Publications</h2>
-{% bibliography --query @inproceedings || @incollection || @article %}
-
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.publications .links a').forEach(function (link) {
-      if (link.textContent.trim() === 'HTML') link.textContent = 'Paper';
-    });
-  });
-</script>
-
 <style>
-  .post-header {
-    display: none;
+  /* Preprints와 Publications 섹션 사이 간격 */
+  .publications-section + .publications-section {
+    margin-top: 3.5rem;
+  }
+
+  /* 오른쪽 연도 표시 */
+  .publications h2.bibliography {
+    color: #707070 !important;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  /* 다크 모드의 연도 표시 */
+  html[data-theme='dark'] .publications h2.bibliography {
+    color: #aaaaaa !important;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html:not([data-theme='light']) .publications h2.bibliography {
+      color: #aaaaaa !important;
+    }
   }
 </style>
+
+<div class="publications">
+  <section class="publications-section">
+    <h2>Preprints</h2>
+
+    {% bibliography --query @unpublished %}
+  </section>
+
+  <section class="publications-section">
+    <h2>Publications</h2>
+
+    {% bibliography --query @inproceedings || @incollection || @article %}
+  </section>
+</div>
