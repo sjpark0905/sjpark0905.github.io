@@ -49,7 +49,49 @@
       }
     });
   });
-</script> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <div class="table-responsive" style="max-height: 60vw"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">Oct 2026</th> <td> Our paper “Qubit-centric Transformer for Surface Code Decoding” was accepted in Physical Review A! </td> </tr> <tr> <th scope="row" style="width: 20%">Sep 2026</th> <td> Our paper "Spectral-aligned Pruning for Universal Error-correcting code Transformers" was accepted for publication in NeurIPS 2026! </td> </tr> <tr> <th scope="row" style="width: 20%">Apr 2026</th> <td> Our paper “Efficient Message-Passing Transformer for Error Correcting Codes” was accepted in ICLR 2026! </td> </tr> <tr> <th scope="row" style="width: 20%">Jul 2025</th> <td> Our paper “Multiple-Masks Error Correction Code Transformer for Short Block Codes” was accepted for publication in IEEE Journal on Selected Areas in Communications! </td> </tr> <tr> <th scope="row" style="width: 20%">Apr 2025</th> <td> Our paper “CrossMPT: Cross-Attention Message-Passing Transformer for Error Correcting Codes” was accepted in ICLR 2025! </td> </tr> </table> </div> </div> <h2> <a href="/publications/" style="color: inherit">selected publications</a> </h2> <div class="publications"> <ol class="bibliography"> <li> <div class="row"> <div id="park2026efficientmpt" class="col-sm-10"> <div class="title">Efficient Message-Passing Transformer for Error Correcting Codes</div> <div class="author"> <em>Seong-Joon Park</em>, Taewoo Park, Hee-Youl Kwak, Sang-Hyo Kim, Yongjune Kim, and Jong-Seon No </div> <script>
+</script> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <div class="table-responsive" style="max-height: 60vw"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">Oct 2026</th> <td> Our paper "Evolutionary BP+ OSD Decoding for Low-Latency Quantum Error Corrections" was accepted for publication in IEEE Journal on Selected Areas in Communications! </td> </tr> <tr> <th scope="row" style="width: 20%">Oct 2026</th> <td> Our paper “Qubit-centric Transformer for Surface Code Decoding” was accepted in Physical Review A! </td> </tr> <tr> <th scope="row" style="width: 20%">Sep 2026</th> <td> Our paper "Spectral-aligned Pruning for Universal Error-correcting code Transformers" was accepted for publication in NeurIPS 2026! </td> </tr> <tr> <th scope="row" style="width: 20%">Apr 2026</th> <td> Our paper “Efficient Message-Passing Transformer for Error Correcting Codes” was accepted in ICLR 2026! </td> </tr> <tr> <th scope="row" style="width: 20%">Jul 2025</th> <td> Our paper “Multiple-Masks Error Correction Code Transformer for Short Block Codes” was accepted for publication in IEEE Journal on Selected Areas in Communications! </td> </tr> </table> </div> </div> <h2> <a href="/publications/" style="color: inherit">selected publications</a> </h2> <div class="publications"> <ol class="bibliography"> <li> <div class="row"> <div id="park2026qubit" class="col-sm-10"> <div class="title">Qubit-centric Transformer for Surface Code Decoding</div> <div class="author"> <em>Seong-Joon Park</em>, Hee-Youl Kwak, and Yongjune Kim </div> <script>
+  (() => {
+    const publicationRow = document.currentScript.closest('.row');
+    if (publicationRow) publicationRow.classList.add('publication-article');
+  })();
+</script> <style>
+  .publication-award {
+    color: #c47f00;
+    font-weight: 600;
+    margin-top: 0.25rem;
+  }
+
+  .publication-award i {
+    margin-right: 0.35rem;
+  }
+
+  /* Conference papers */
+  .publication-inproceedings .abbr .badge,
+  .publication-incollection .abbr .badge {
+    background-color: #1565c0 !important;
+    color: #fff !important;
+  }
+
+  /* Journal papers */
+  .publication-article .abbr .badge {
+    background-color: #9c3d63 !important;
+    color: #fff !important;
+  }
+
+  /* Preprints */
+  .publication-unpublished .abbr .badge {
+    background-color: #6c757d !important;
+    color: #fff !important;
+  }
+
+  .publication-inproceedings .abbr .badge a,
+  .publication-incollection .abbr .badge a,
+  .publication-article .abbr .badge a,
+  .publication-unpublished .abbr .badge a {
+    color: #fff !important;
+  }
+
+</style> <div class="periodical"> <em style="color: #1976d2;">Physical Review A</em> , 2026 </div> <div class="periodical"> </div> <div class="links"> <a href="https://arxiv.org/abs/2510.11593" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> </div> </div> </li> <li> <div class="row"> <div id="park2026efficientmpt" class="col-sm-10"> <div class="title">Efficient Message-Passing Transformer for Error Correcting Codes</div> <div class="author"> <em>Seong-Joon Park</em>, Taewoo Park, Hee-Youl Kwak, Sang-Hyo Kim, Yongjune Kim, and Jong-Seon No </div> <script>
   (() => {
     const publicationRow = document.currentScript.closest('.row');
     if (publicationRow) publicationRow.classList.add('publication-inproceedings');
@@ -698,6 +740,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-qubit-centric-transformer-for-surface-code-decoding-was-accepted-in-physical-review-a",
           title: 'Our paper “Qubit-centric Transformer for Surface Code Decoding” was accepted in Physical Review...',
+          description: "",
+          section: "News",},{id: "news-our-paper-quot-evolutionary-bp-osd-decoding-for-low-latency-quantum-error-corrections-quot-was-accepted-for-publication-in-ieee-journal-on-selected-areas-in-communications",
+          title: 'Our paper &amp;quot;Evolutionary BP+ OSD Decoding for Low-Latency Quantum Error Corrections&amp;quot; was accepted...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
